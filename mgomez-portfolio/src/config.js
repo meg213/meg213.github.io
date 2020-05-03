@@ -12,7 +12,7 @@ module.exports = {
     location: 'Atlanta GA',
     email: 'danube213@gmail.com',
     github: 'https://github.com/meg213',
-    socialMedia: [
+    socialMediaInfo: [
       {
         name: 'Linkedin',
         url: 'https://www.linkedin.com/in/morgan-gomez-8b4745142/',

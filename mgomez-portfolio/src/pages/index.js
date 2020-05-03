@@ -1,17 +1,16 @@
-import React from "react"
-import "../styles/styles.scss"
-import Header from "../components/header"
-import Banner from "../components/banner"
-import Social from "../components/social"
-import Side from "../components/side"
+import React from "react";
+import "../styles/styles.scss";
+import Header from "../components/header";
+import Banner from "../components/banner";
+import Side from "../components/side";
 
 const IndexPage = () => (
  <div>
    <Header/>
-   <Side/>
+   <Side orientation="left"/>
    <Banner/>
  </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;
  

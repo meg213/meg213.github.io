@@ -1,31 +1,48 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-// const { colors, loaderDelay } = theme;
+import IconGitHub from '../components/icons/github';
+import IconInstagram from '../components/icons/instagram';
+import IconLinkedin from '../components/icons/linkedin';
 import '../styles/styles.scss';
-
 
 const Side = ({ children, isHome, orientation }) => {
   const [isMounted, setIsMounted] = useState(!isHome);
 
-//   useEffect(() => {
-//     if (!isHome) {
-//       return;
-//     }
-//     const timeout = setTimeout(() => setIsMounted(true), loaderDelay);
-//     return () => clearTimeout(timeout);
-//   }, []);
-
   return (
-    <div className='side' orientation={orientation}>
-        Hello this is a test
-      <TransitionGroup component={null}>
-        {/* {isMounted && (
-          <CSSTransition classNames={isHome ? 'fade' : ''} timeout={isHome ? loaderDelay : 0}>
-            {children}
-          </CSSTransition>
-        )} */}
-      </TransitionGroup>
+    <div className='social' orientation={orientation}>
+         <ul className = 'social-list'>
+            <li className='icon'>
+              <a
+                className='icon-linkedIn'
+                href='https://www.linkedin.com/in/morgan-gomez-8b4745142/'
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label='Linkedin'>
+                <IconLinkedin/>
+                </a>
+            </li>
+            <li className='icon'>
+              <a
+                className='icon-github'
+                href='https://github.com/meg213'
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label='Github'>
+                <IconGitHub/>
+                </a>
+            </li>
+            <li className='icon'>
+              <a
+                className='icon-instagram'
+                href='https://www.instagram.com/morgangomez213/?hl=en'
+                target="_blank"
+                rel="nofollow noopener noreferrer"
+                aria-label='Instagram'>
+                <IconInstagram/>
+                </a>
+            </li>
+        </ul>
     </div>
   );
 };
