@@ -56,3 +56,34 @@ header {
         }
     }
 }
+
+//Banner
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: $sand;
+    position: relative;
+    height: 100vh;
+    .container {
+        height: 400px;
+        width: 400px;
+        left: 20%;
+        .main-text {
+            font-size: 2.5rem;
+            font-weight: 500;
+            color: $burnt-orange;
+            position: absolute;
+            width: 100%;
+            padding-left: 30vw;
+            padding-right: 30vw;
+            top: 50%;
+            transform: translateY(-50%);
+            text-align: center;
+            line-height: 2.6rem;
+            z-index: 9;
+            @media (max-width: 1440px ) {
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
