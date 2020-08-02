@@ -5,10 +5,9 @@ import Banner from "../components/banner";
 import Side from "../components/side";
 
 const IndexPage = () => (
- <div>
+ <div >
    <Header/>
-   <Side orientation="left"/>
-   <Banner/>
+   {/* <Side orientation="left"/> */}
  </div>
 );
 
