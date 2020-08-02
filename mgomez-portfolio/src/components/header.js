@@ -7,8 +7,8 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className='morgan'>Morgan Gomez</div>
       <div className="navigation">
-        <Link to='/projects'>Projects</Link>
-        <Link to='/about'>About</Link>
+        <Link to='/'>Projects</Link>
+        <Link to='/../about'>About</Link>
         <Link to='/resume'>Resume</Link>
       </div>
     </div>
@@ -18,7 +18,6 @@ const Header = ({ siteTitle }) => (
 Header.propTypes = {
   siteTitle: PropTypes.string,
 }
-
 Header.defaultProps = {
   siteTitle: ``,
 }
