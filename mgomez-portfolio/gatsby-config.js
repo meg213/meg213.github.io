@@ -32,8 +32,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Lato`,
-          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+          `Lato\:100,300,400,400i,700, 800, 900`,
+          `source sans pro\:100,300,400,400i,700, 800, 900` // you can also specify font weights and styles
         ],
         display: 'swap'
       }

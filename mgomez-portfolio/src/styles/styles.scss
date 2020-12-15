@@ -22,26 +22,35 @@ h1 {
 h3 {
     font-weight: 100;
 }
-.container {
-    width: 1640px;
-    min-width: 1640px;
-    margin: 0 auto;
-    @media(max-width: 1440px ) {
-        width: 1280px;
-        min-width: 1280px;
-    };
-    @media(max-width: 1280px ) {
-        width: 976px;
-        min-width: 976 px;
-    };
-    @media(max-width: 976px ) {
-        width: 768px;
-        min-width: 768px;
-    };
+img {
+    height: 50px;
+    width: auto;
 }
+//Banner
+.banner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    .container {
+        text-align: center;
+    }
+    .banner-name {
+        text-transform: uppercase;
+        font-size: 32px;
+        font-family: 'Helvetica Neue';
+        letter-spacing: 4px;
+    }
+    .sub-text {
+        font-weight: 100;
+        font-size: 18px;
+    }
+}
+
+// main parts, projects & about me
 .contents {
-    margin: 0 auto;
-    padding: 0 4.5rem 1.0875rem 7rem;
+    margin: 0 50px 0 110px;
+
     .projects{
         height: fit-content;
         // margin-right: 30px;
@@ -53,61 +62,6 @@ h3 {
     }
     .about {
         height: fit-content;
-    }
-}
-
-//Header
-header {
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    padding-top: 36px;
-    top: 0px;
-    z-index: 10;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    background-color: $sand;
-    .morgan {
-        color: $burnt-orange;
-        margin: 6px 0px;
-        padding: 6px 0px;
-        font-size: 28px;
-        font-weight: 700;
-        letter-spacing: 1.2px;
-        text-transform: uppercase;
-    }
-    .navigation {
-        a {
-            padding: 0 8px;
-            text-transform: uppercase;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: $faded-blue;
-            &:first-child {
-                margin-left: 0px;
-            }
-            &:last-child {
-                margin-right: 0px;
-            }
-            &:hover{
-                color: $burnt-orange;
-            }
-        }
-        
-    }
-}
-
-//Banner
-.banner {
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 100vh;
-    .container {
-        height: 400px;
-        width: 400px;
     }
 }
 

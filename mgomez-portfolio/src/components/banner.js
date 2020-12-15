@@ -1,13 +1,14 @@
 import React from "react"
-import "../styles/styles.scss"
+import "./header.scss";
+
 
 const Banner = () => {
     return (
         <div className="banner">
             <div className="container">
-                <h1>Hey, I'm Morgan Gomez</h1>
-                <div className="main-text">
-                 a Computational Media major at Georgia Tech.
+                <h1 className="banner-name">Morgan Gomez</h1>
+                <div className="sub-text">
+                     interaction design and experimental media
                 </div>
             </div>
         </div>

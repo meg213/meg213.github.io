@@ -4,15 +4,15 @@ import Header from "../components/header";
 import Banner from "../components/banner";
 import Side from "../components/side";
 import About from "../pages/about";
-import Projects from "../pages/project"
+import ProjectPage from "../pages/projectPage"
 
 const IndexPage = () => (
  <div >
    <Header></Header>
    <Side orientation="left"/>
-   <div className="contents">
-     <Banner/>
-     <Projects/>
+    <Banner/>
+    <div className="contents">
+     <ProjectPage/>
     <About/>
    </div>
  </div>
