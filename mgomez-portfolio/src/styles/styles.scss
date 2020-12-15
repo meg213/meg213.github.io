@@ -22,23 +22,24 @@ h1 {
 h3 {
     font-weight: 100;
 }
-img {
-    height: 50px;
-    width: auto;
-}
+
 //Banner
 .banner {
     display: flex;
     align-items: center;
-    position: relative;
-    height: 100vh;
+    justify-content: center;
+    height: 85vh;
     .container {
         text-align: center;
+        height: 200px;
+        width: 400px;
     }
     .banner-name {
+        color: $faded-blue;
         text-transform: uppercase;
         font-size: 32px;
         font-family: 'Helvetica Neue';
+        font-weight: 800;
         letter-spacing: 4px;
     }
     .sub-text {

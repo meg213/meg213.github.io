@@ -1,15 +1,14 @@
 import React from "react"
 import "./header.scss";
-
+import video from  "../files/tree.mp4"
 
 const Banner = () => {
     return (
         <div className="banner">
+            {/* <video id="tree" autoPlay muted loop src={video}></video> */}
             <div className="container">
-                <h1 className="banner-name">Morgan Gomez</h1>
-                <div className="sub-text">
-                     interaction design and experimental media
-                </div>
+                <div className="banner-name">Morgan Gomez</div>
+                <div className="sub-text">interaction design and experimental media</div>
             </div>
         </div>
     )

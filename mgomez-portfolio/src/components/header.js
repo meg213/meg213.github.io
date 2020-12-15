@@ -6,7 +6,7 @@ import logo from '../images/logo-01.png';
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div className="container">
+    <div className="header">
       {/* <div className='morgan'>Morgan Gomez</div> */}
       <img src={logo}/>
       <div className="navigation">
