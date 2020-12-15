@@ -3,8 +3,8 @@ module.exports = {
     siteDescription:
       'site description',
     siteKeywords:
-      'site keywords Morgan Gomez, Morgan, Gomez, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-    siteUrl: 'https://brittanychiang.com',
+      'site keywords Morgan Gomez, Morgan, Gomez, software engineer, front-end engineer, web developer, javascript, georgia tech',
+    siteUrl: 'https://meg213.github.io/',
     siteLanguage: 'en_US',
     googleAnalyticsID: 'UA-45666519-2',
     googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',

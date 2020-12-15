@@ -1,15 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Resume from '../files/Resume.pdf'
 
 const Header = ({ siteTitle }) => (
   <header>
     <div className="container">
       <div className='morgan'>Morgan Gomez</div>
       <div className="navigation">
-        <Link to='/'>Projects</Link>
-        <Link to='/../about'>About</Link>
-        <Link to='/resume'>Resume</Link>
+        <Link to='#projects'>Projects</Link>
+        <Link to='#about'>About</Link>
+        <a href={Resume} target="_blank" rel="noopener">Resume</a>
       </div>
     </div>
   </header>
