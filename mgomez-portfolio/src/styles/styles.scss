@@ -19,8 +19,12 @@ h1 {
     color: $faded-blue;
     font-family: $font;
 }
-h3 {
-    font-weight: 100;
+video {
+    height: 650px;
+    width: auto;
+    z-index: 0;
+    margin-top: 0px;
+    margin-left: -40px;
 }
 
 //Banner
@@ -30,8 +34,14 @@ h3 {
     justify-content: center;
     height: 85vh;
     .container {
-        text-align: center;
+        text-align: left;
         height: 200px;
+        width: 400px;
+        z-index: 1;
+    }
+    .video-container {
+        display: block;
+        height: fit-content;
         width: 400px;
     }
     .banner-name {
@@ -43,8 +53,9 @@ h3 {
         letter-spacing: 4px;
     }
     .sub-text {
-        font-weight: 100;
-        font-size: 18px;
+        font-weight: 300;
+        font-family: 'Helvetica Neue';
+        font-size: 20px;
     }
 }
 
