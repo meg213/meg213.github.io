@@ -1,0 +1,44 @@
+
+//colors
+$burnt-orange: #a44a3f;
+$tan: #ded2c2;
+$sand: #fcfbf7;
+$faded-blue: #586c72;
+
+header {
+    top: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 28px 28px;
+    font-family: 'Helvetica Neue';
+    img { //logo
+        height: 40px;
+        width: auto;
+    }
+    .header {
+        width: 100%;
+        display: contents;
+    }
+    .navigation {
+        align-self: center;
+        a {
+            padding: 0 8px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 300;
+            color: $faded-blue;
+            &:first-child {
+                margin-left: 0px;
+            }
+            &:last-child {
+                margin-right: 0px;
+            }
+            &:hover{
+                color: $burnt-orange;
+            }
+        }
+        
+    }
+}
