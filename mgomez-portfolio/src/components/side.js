@@ -48,7 +48,7 @@ const Side = ({ children, isHome, orientation }) => {
 };
 
 Side.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node,
   isHome: PropTypes.bool,
   orientation: PropTypes.string,
 };

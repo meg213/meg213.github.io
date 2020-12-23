@@ -17,7 +17,9 @@ html, body {
 }
 h1 {
     color: $faded-blue;
-    font-family: $font;
+    font-family: 'Helvetica Neue';
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 video {
     height: 650px;
@@ -62,10 +64,9 @@ video {
 // main parts, projects & about me
 .contents {
     margin: 0 50px 0 110px;
-
+    font-family: 'Helvetica Neue';
     .projects{
         height: fit-content;
-        // margin-right: 30px;
         .projects-container {
             display: flex;
             flex-wrap: wrap;
@@ -73,7 +74,26 @@ video {
         }
     }
     .about {
-        height: fit-content;
+        height: 80vh;
+        .about-me {
+            display: flex;
+            justify-content: space-between;
+         }
+         .bio {
+            width: 600px;
+         }
+         h3 {
+            color: $faded-blue
+         }
+         p {
+             font-weight: 300;
+         }
+         a {
+             font-weight: 300;
+             color: $burnt-orange;
+             font-family: 'Helvetica Neue';
+             text-decoration: none;
+         }
     }
 }
 
