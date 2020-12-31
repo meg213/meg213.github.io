@@ -79,11 +79,18 @@ video {
             display: flex;
             justify-content: space-between;
          }
+         .block1 {
+             width: 450px;
+         }
          .bio {
-            width: 600px;
+            width: 450px;
+            padding-right: 50px;
          }
          h3 {
             color: $faded-blue
+         }
+         h3:first-child{
+             margin-top: 0;
          }
          p {
              font-weight: 300;
@@ -94,6 +101,10 @@ video {
              font-family: 'Helvetica Neue';
              text-decoration: none;
          }
+        b {
+            font-weight: 400;
+            color: $faded-blue;
+        }
     }
 }
 
