@@ -4,7 +4,7 @@ import Project from "../components/project"
 const ProjectPage = () => (
   <div className="projects" id="projects">
     <h1>Projects</h1>
-    <p>Here are a few of my favorite projects!</p>
+    <p>Here are a few of my favorite projects.</p>
     <div className="projects-container">
         <Project
             name="The Secret Laboratory"
