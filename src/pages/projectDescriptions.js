@@ -21,7 +21,7 @@ const projectDescriptions = () => (
     {/* The Secret Laboratory block */}
     <article className="block" id="secret-lab">
       <div className="visual">
-        <video id="unity" autoPlay muted loop>
+        <video id="unity" autoPlay muted loop poster="../images/unity.png">
           <source src={require('../files/unityClip.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -39,7 +39,7 @@ const projectDescriptions = () => (
     {/* plane block */}
      <article className="block" id="ready-for-takeoff">
         <div className="visual">
-          <video id="plane-video" autoPlay muted loop>
+          <video id="plane-video" autoPlay muted loop poster="../images/plane.png">
             <source src={require('../files/plane.mp4')} type="video/mp4"/>
           </video>
         </div>
@@ -54,7 +54,7 @@ const projectDescriptions = () => (
     {/* Mountain Tunnel block */}
     <article className="block" id="mountain-highway">
       <div className="visual">
-        <video id="tunnel-video" autoPlay muted loop>
+        <video id="tunnel-video" autoPlay muted loop poster="../images/highway.png">
           <source src={require('../files/tunnel.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -70,7 +70,7 @@ const projectDescriptions = () => (
       {/* Balance Me block */}
       <article className="block" id="balance-me">
       <div className="visual">
-         <video id="bm-video" autoPlay muted loop>
+         <video id="bm-video" autoPlay muted loop poster="../images/Balance_Me.png">
           <source src={require('../files/balanceMe.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -133,7 +133,7 @@ const projectDescriptions = () => (
     {/* data vis block */}
     <article className="block" id="images-in-time">
         <div className="visual">
-          <video id="data-vis" autoPlay muted loop>
+          <video id="data-vis" autoPlay muted loop poster="../images/data_vis.png">
             <source src={require('../files/data.mp4')} type="video/mp4"/>
           </video>
         </div>
@@ -149,7 +149,7 @@ const projectDescriptions = () => (
     {/* tree block */}
     <article className="block" id="growing-tree">
       <div className="visual">
-        <video id="blender" autoPlay muted loop>
+        <video id="blender" autoPlay muted loop poster="../images/tree.png">
           <source src={require('../files/tree.mp4')} type="video/mp4"/>
         </video>
       </div>
