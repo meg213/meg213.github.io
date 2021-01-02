@@ -4,7 +4,7 @@ import video from  "../files/tree.webm"
 
 const Banner = () => {
     return (
-        <div className="banner">
+        <div className="banner" id="">
             <div className="container">
                 <div className="banner-name">Morgan Gomez</div>
                 <div className="sub-text">interaction design and experimental media</div>

@@ -55,10 +55,15 @@ $faded-blue: #586c72;
                 text-decoration: none;
             }
             }
+        }
         .return{
             text-transform: uppercase;
-            height: 32px;
-        }
+            height: 48px;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: $burnt-orange
+            }
         }
     }
 }

@@ -46,7 +46,7 @@ const ProjectPage = () => (
             image="the_mirror"
             name="The Mirror"
             type="Blender"
-            link="/projectInfo"
+            link="/projectInfo/#mirror"
         />
         <Project
             image="data_vis"
