@@ -65,11 +65,11 @@ video {
 .contents {
     margin: 0 50px 0 110px;
     font-family: 'Helvetica Neue';
-    h1 {
-        margin-block-end: 0;
-    }
     .projects{
         height: fit-content;
+        h1 {
+            margin-block-end: 0;
+        }
         .projects-container {
             display: flex;
             flex-wrap: wrap;
@@ -93,6 +93,9 @@ video {
          .bio {
             width: 450px;
             padding-right: 50px;
+            .image {
+                text-align: center;
+            }
          }
          h3 {
             color: $faded-blue

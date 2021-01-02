@@ -8,7 +8,7 @@ import logo from '../images/logo-01.png';
 const Header = ({ siteTitle }) => (
   <header>
     <div className="header">
-      <a href="/"><img src={logo}/></a>
+      <Link to="/"><img src={logo}/></Link>
       <div className="navigation">
         <Link to='/#projects'>Projects</Link>
         <Link to='/#about'>About</Link>

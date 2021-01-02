@@ -9,7 +9,7 @@ const About = () => (
   <div className="about" id='about'>
     <h1>About</h1>
     <div className="about-me">
-      <div className="block1">
+      {/* <div className="block1">
         <div className="education">
           <h3>Education</h3>
             <p>2016-2018: University of Georgia</p>
@@ -30,14 +30,16 @@ const About = () => (
           <p><b>Applications:</b> Blender, Unity, Visual Studio Code, JIRA, Git, Android Studio, After Effects</p>
         <h3>Contact</h3>
           <p><b>e:</b> danube213@gmail.com</p>
-      </div>
+      </div> */}
       <div className="bio">
-        <img src={me} alt="Morgan Gomez" width="300" height="auto"></img>
+        <div className="image"> 
+          <img src={me} alt="Morgan Gomez" width="300" height="auto"></img>
+        </div>
         <p>Hey! I'm Morgan Gomez, a Georgia Tech undergraduate student majoring in
          <a href="https://www.cc.gatech.edu/academics/degree-programs/bachelors/computational-media"> Computational Media</a>
          . I like to think of it as computer science mixed with graphic design: a bit creative, a bit technical, and a lot of fun.
         </p>
-        <p>I currently live in Atlanta, GA, where I will graduate from Georgia Tech in May of 2021. After that? Not sure yet.</p>
+        <p>I currently live in Atlanta, GA, where I will graduate from Georgia Tech in May of 2021.</p>
         <h3>When I'm not working...</h3>
         <p>I love sodoku, Reddit, and Orange Theory Fitness! I'm also a fan of Westworld, The Queen's Gambit, Bob's Burgers, and House.</p>
       </div>

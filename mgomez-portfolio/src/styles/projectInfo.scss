@@ -4,9 +4,10 @@ $tan: #ded2c2;
 $sand: #fcfbf7;
 $faded-blue: #586c72;
 
-.projectInfo {  
+.project-descriptions {  
     font-family: 'Helvetica Neue';
     .contents {
+        justify-content: space-between;
         .title {
             height: 50px;
             font-size: 32px;
@@ -18,7 +19,7 @@ $faded-blue: #586c72;
         }
         .block {
             display: flex;
-            padding: 24px 0;
+            padding: 7% 0;
             .visual {
                 width: 550px;
                 text-align: center;
@@ -38,24 +39,32 @@ $faded-blue: #586c72;
             .project-description {
                 padding-left: 32px;
                 width: 500px;
-                // align-self: center;
+                align-self: center;
                 font-weight: 300;
                 font-size: 18px;
                 .project-name {
-                    font-size: 28px;
+                    font-size: 24px;
                     font-weight: 400;
                     text-transform: uppercase;
                     color: $faded-blue;
     
                 }
-            a {
-                font-weight: 300;
-                color: $burnt-orange;
-                font-family: 'Helvetica Neue';
-                text-decoration: none;
-            }
+                a {
+                    font-weight: 300;
+                    color: $burnt-orange;
+                    font-family: 'Helvetica Neue';
+                    text-decoration: none;
+                }
             }
         }
+        // .block::before { 
+        //     display: block; 
+        //     content: " "; 
+        //     margin-top: -285px; 
+        //     height: 285px; 
+        //     visibility: hidden; 
+        //     pointer-events: none;
+        // }
         .return{
             text-transform: uppercase;
             height: 48px;

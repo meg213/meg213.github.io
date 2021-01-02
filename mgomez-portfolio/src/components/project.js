@@ -1,24 +1,27 @@
+import { Link } from "gatsby";
 import PropTypes from "prop-types"
 import React from "react"
 import "./project.css";
-import tree from "../images/tree.png"
 
 class Project extends React.Component {
     handleClick = () => {
-        window.location.assign(this.props.link);
+      return <Link to="projectDescription"></Link>
     }
 
     render (){
         return (
-            <div className="project" onClick={this.handleClick}>
-                <img  src={require('../images/' + this.props.image + '.png')}  />
-                <div className="overlay">
-                    <div className="text">
-                        <div className="name">{this.props.name} </div>
-                        <div className="type">{this.props.type} </div>
+            <Link to={this.props.link}>
+             <div className="project">
+                    <img  src={require('../images/' + this.props.image + '.png')}  />
+
+                    <div className="overlay">
+                        <div className="text">
+                            <div className="name">{this.props.name} </div>
+                            <div className="type">{this.props.type} </div>
+                        </div>
                     </div>
-                </div>
-            </div>
+                 </div>
+            </Link>
         )
     }
 }

@@ -10,35 +10,35 @@ const ProjectPage = () => (
             name="The Secret Laboratory"
             type="Unity"
             image="unity"
-            link="/projectInfo"
+            link="/projectDescriptions#secret-lab"
         />
         <Project
             image="plane"
             name="Ready for Takeoff"
             type="Blender"
-            link="/projectInfo"
+            link="/projectDescriptions#ready-for-takeoff"
         />
         <Project
             image="highway"
             name="Mountain Highway"
             type="Blender"
-            link="/projectInfo"
+            link="/projectDescriptions#mountain-highway"
         />
         <Project
             image="Balance_Me"
             name="Balance Me"
             type="React Native/Figma"
-            link="/projectInfo"
+            link="/projectDescriptions#balance-me"
         />
         <Project
             image="bdc"
             name="Blue Donkey Coffee Style Guide"
             type="Illustrator/InDesign"
-            link="/projectInfo"
+            link="/projectDescriptions#blue-donkey"
         />
         <Project
             image="imaginary_planets"
-            link="/projectInfo"
+            link="/projectDescriptions#twitterbot"
             name="Imaginary Planets"
             type="Javascript/Twitter"
         />
@@ -46,16 +46,16 @@ const ProjectPage = () => (
             image="the_mirror"
             name="The Mirror"
             type="Blender"
-            link="/projectInfo/#mirror"
+            link="/projectDescriptions#mirror-comic"
         />
         <Project
             image="data_vis"
             name="Images in Time"
             type="Processing.js"
-            link="/projectInfo"
+            link="/projectDescriptions#images-in-time"
         />
         <Project
-            link="/projectInfo"
+            link="/projectDescriptions#growing-tree"
             image="tree"
             name="Tree"
             type="Blender"
@@ -64,13 +64,13 @@ const ProjectPage = () => (
             image="audio_art"
             name="Audio Art"
             type="Processing.js"
-            link="/projectInfo"
+            link="/projectDescriptions#audio-art"
         />
         <Project
             image="website"
             name="This Portfolio!"
             type="React/Gatsby"
-            link="/projectInfo"
+            link="/projectDescriptions#my-portfolio"
         />
         <Project/>
     </div>

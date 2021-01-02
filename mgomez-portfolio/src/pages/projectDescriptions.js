@@ -11,15 +11,15 @@ import dataVis from "../files/dataVis.pdf"
 import { Link } from "gatsby"
 
 
-const projectInfo = () => (
- <div className="projectInfo">
+const projectDescriptions = () => (
+ <div className="project-descriptions">
    <Header></Header>
    <Side orientation="left"/>
    <div className="contents">
-    <h1 className="title">Projects</h1>
+   <h1 className="title">Projects</h1>
 
     {/* The Secret Laboratory block */}
-    <div className="block" id="secret-lab">
+    <article className="block" id="secret-lab">
       <div className="visual">
         <video id="unity" autoPlay muted loop>
           <source src={require('../files/unityClip.mp4')} type="video/mp4"/>
@@ -34,12 +34,12 @@ const projectInfo = () => (
         <p style={{fontSize: 14, marginBlockStart: "2px"}}>(Please excuse the poor video quality, my computer could not handle running Unity + screen recording without my laptop fan sounding like a jet engine)</p>
         <p>Click <a href="https://drive.google.com/file/d/16HxR-_BIjGTcXeqf34BGHiZZ-JN6mgif/view?usp=sharing">here</a> to download the Unity .zip file.</p>
       </div> 
-    </div>
+    </article>
 
     {/* plane block */}
-     <div className="block" id="plane">
+     <article className="block" id="ready-for-takeoff">
         <div className="visual">
-          <video id="plane" autoPlay muted loop>
+          <video id="plane-video" autoPlay muted loop>
             <source src={require('../files/plane.mp4')} type="video/mp4"/>
           </video>
         </div>
@@ -49,12 +49,12 @@ const projectInfo = () => (
           </p>
           <p>Click <a href="https://github.com/meg213/blenderFiles" target="_blank" rel="noopener noreferrer">here</a> to view or download the Blender file.</p>
         </div> 
-     </div>
+     </article>
 
     {/* Mountain Tunnel block */}
-    <div className="block" id="tunnel">
+    <article className="block" id="mountain-highway">
       <div className="visual">
-        <video id="tunnel" autoPlay muted loop>
+        <video id="tunnel-video" autoPlay muted loop>
           <source src={require('../files/tunnel.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -65,12 +65,12 @@ const projectInfo = () => (
           </p>
          <p>Click <a href="https://github.com/meg213/blenderFiles" target="_blank" rel="noopener noreferrer">here</a> to view or download the Blender file.</p>
       </div> 
-    </div>
+    </article>
 
       {/* Balance Me block */}
-        <div className="block" id="balance-me">
+      <article className="block" id="balance-me">
       <div className="visual">
-         <video id="balanceMe" autoPlay muted loop>
+         <video id="bm-video" autoPlay muted loop>
           <source src={require('../files/balanceMe.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -83,13 +83,13 @@ const projectInfo = () => (
         <p>Click <a href="https://github.com/meg213/balance_me" target="_blank" rel="noopener noreferrer">here</a> to view the project files.</p>
         <p>Click <a href="https://youtu.be/IbOtIXRyzlg" target="_blank" rel="noopener noreferrer">here</a> to see a demo of the application.</p>
       </div>
-    </div>
+    </article>
 
 
       {/* Blue Donkey block */}
-      <div className="block" id="blue-donkey">
+      <article className="block" id="blue-donkey">
       <div className="visual">
-        <img src={require('../images/bdc.png')} alt="Dlue Donkey"/>
+        <img src={require('../images/bdc.png')} alt="Dlue Donkey Coffee"/>
       </div>
       <div className="project-description">
         <div className="project-name"> Blue Donkey Coffee Style Guide</div>
@@ -98,10 +98,10 @@ const projectInfo = () => (
         </p>
         <p>Click <a href={bdc} target="_blank" rel="noopener noreferrer">here</a> to see the style guide.</p>
       </div>
-    </div>
+    </article>
 
     {/* twitterbot block */}
-    <div className="block" id="twitterbot">
+    <article className="block" id="twitterbot">
       <div className="visual">
         <img src={require('../images/twitter.png')} alt="twitterbot"/>
       </div>
@@ -114,12 +114,12 @@ const projectInfo = () => (
         <p>Click <a href="https://github.com/meg213/twitterbot" target="_blank" rel="noopener noreferrer">here</a> to view or download the project files.</p>
         <p>Want even more? <a href={twitterbot} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
       </div>
-    </div>
+    </article>
 
     {/* mirror block */}
-    <div className="block" id="mirror">
+    <article className="block" id="mirror-comic">
       <div className="visual">
-        <img src={require('../images/the-mirror-more.png')} alt="mirror"/>
+        <img src={require('../images/the-mirror-more.png')} alt="the mirror"/>
       </div>
       <div className="project-description">
         <div className="project-name"> The Mirror</div>
@@ -128,10 +128,10 @@ const projectInfo = () => (
         </p>
         <p>Click <a href={comic} target="_blank" rel="noopener noreferrer">here</a> to see the full comic!</p>
       </div>
-    </div>
+    </article>
 
     {/* data vis block */}
-    <div className="block" id="data-vis">
+    <article className="block" id="images-in-time">
         <div className="visual">
           <video id="data-vis" autoPlay muted loop>
             <source src={require('../files/data.mp4')} type="video/mp4"/>
@@ -144,12 +144,12 @@ const projectInfo = () => (
         <p>Click <a href="https://github.com/meg213/data_visualization" target="_blank" rel="noopener noreferrer">here</a> to see or download the files.</p>
         <p>Want even more? <a href={dataVis} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
       </div>
-    </div>
+    </article>
 
     {/* tree block */}
-    <div className="block" id="tree">
+    <article className="block" id="growing-tree">
       <div className="visual">
-        <video id="data-vis" autoPlay muted loop>
+        <video id="blender" autoPlay muted loop>
           <source src={require('../files/tree.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -159,12 +159,12 @@ const projectInfo = () => (
         </p>
         <p>Click <a href="https://github.com/meg213/blenderFiles" target="_blank" rel="noopener noreferrer">here</a> to view or download the Blender file.</p>
       </div>
-    </div>
+    </article>
     
     {/* Audio Art block */}
-    <div className="block" id="tree">
+    <article className="block" id="audio-art">
       <div className="visual">
-       <img src={require('../images/audio_art.png')} alt="tree"/>
+       <img src={require('../images/audio_art.png')} alt="audio art"/>
       </div>
       <div className="project-description">
         <div className="project-name"> Audio Art</div>
@@ -173,11 +173,11 @@ const projectInfo = () => (
         <p>Click <a href="https://github.com/meg213/audio_art" target="_blank" rel="noopener noreferrer">here</a> to view or download the project files.</p>
         <p>Want even more? <a href={audioArt} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
       </div>
-    </div>
+    </article>
     
 
       {/* This website */}
-    <div className="block" id="portfolio">
+    <article className="block" id="my-portfolio">
       <div className="visual">
         <img src={require('../images/website.png')} alt="portfolio"/>
       </div>
@@ -188,7 +188,7 @@ const projectInfo = () => (
         </p>
         <p>Click <a href="https://github.com/meg213/meg213.github.io" target="_blank" rel="noopener noreferrer">here</a> to see the project files.</p>
       </div>
-    </div>  
+    </article>  
 
 
     <div className='return'> 
@@ -198,5 +198,5 @@ const projectInfo = () => (
  </div>
 );
 
-export default projectInfo;
+export default projectDescriptions;
  
