@@ -86,35 +86,53 @@ video {
         .about-me {
             display: flex;
             justify-content: space-between;
-         }
-         .block1 {
-             width: 450px;
-         }
-         .bio {
-            width: 450px;
-            padding-right: 50px;
-            .image {
-                text-align: center;
+            line-height: 24px;
+            .bio {
+                margin-bottom: 18px;
             }
-         }
-         h3 {
-            color: $faded-blue
-         }
-         h3:first-child{
-             margin-top: 0;
-         }
-         p {
-             font-weight: 300;
-         }
-         a {
-             font-weight: 300;
-             color: $burnt-orange;
-             font-family: 'Helvetica Neue';
-             text-decoration: none;
-         }
+            .block {
+                display: flex;
+                justify-content: space-between;
+                width: 680px;
+                padding-bottom: 18px;
+                .info {
+                    width: 400px;
+                }
+            }
+            .block:last-child {
+                padding-bottom: 0;
+            }
+        }
+        img {
+            height: 500px;
+            width: auto;
+            padding-right: 20px;
+
+        }
+        h3 {
+            color: $faded-blue;
+            margin-block-start: 0;
+        }
+        p {
+            font-weight: 300;
+            margin-block-start: 0;
+            margin-block-end: 6px;
+        }
+        p:first-child {
+            margin-block-start: 0;
+        }
+        a {
+            font-weight: 300;
+            color: $burnt-orange;
+            font-family: 'Helvetica Neue';
+            text-decoration: none;
+        }
         b {
             font-weight: 400;
             color: $faded-blue;
+        }
+        i {
+            font-size: 14px;
         }
     }
 }

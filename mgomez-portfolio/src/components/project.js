@@ -4,23 +4,18 @@ import React from "react"
 import "./project.css";
 
 class Project extends React.Component {
-    handleClick = () => {
-      return <Link to="projectDescription"></Link>
-    }
-
     render (){
         return (
             <Link to={this.props.link}>
              <div className="project">
-                    <img  src={require('../images/' + this.props.image + '.png')}  />
-
-                    <div className="overlay">
-                        <div className="text">
-                            <div className="name">{this.props.name} </div>
-                            <div className="type">{this.props.type} </div>
-                        </div>
+                <img  src={require('../images/' + this.props.image + '.png')}  />
+                <div className="overlay">
+                    <div className="text">
+                        <div className="name">{this.props.name} </div>
+                        <div className="type">{this.props.type} </div>
                     </div>
-                 </div>
+                </div>
+             </div>
             </Link>
         )
     }
