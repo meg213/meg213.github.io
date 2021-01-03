@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/meg213/meg213@github.io/master/src/images/logo-01.png" width="100" />
+  <img alt="Logo" src="src/images/logo-01.png" width="100" />
   
   Hey! Welcome to my Porfolio!
   
