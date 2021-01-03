@@ -39,7 +39,7 @@ const projectDescriptions = () => (
     {/* plane block */}
      <article className="block" id="ready-for-takeoff">
         <div className="visual">
-          <video id="plane-video" autoPlay muted loop poster="../images/plane.png">
+          <video id="plane-video" autoPlay muted loop poster="../images/plane.jpg">
             <source src={require('../files/plane.mp4')} type="video/mp4"/>
           </video>
         </div>
@@ -54,7 +54,7 @@ const projectDescriptions = () => (
     {/* Mountain Tunnel block */}
     <article className="block" id="mountain-highway">
       <div className="visual">
-        <video id="tunnel-video" autoPlay muted loop poster="../images/highway.png">
+        <video id="tunnel-video" autoPlay muted loop poster="../images/highway.jpg">
           <source src={require('../files/tunnel.mp4')} type="video/mp4"/>
         </video>
       </div>
@@ -89,7 +89,7 @@ const projectDescriptions = () => (
       {/* Blue Donkey block */}
       <article className="block" id="blue-donkey">
       <div className="visual">
-        <img src={require('../images/bdc.png')} alt="Dlue Donkey Coffee"/>
+        <img src={require('../images/bdc.jpg')} alt="Dlue Donkey Coffee"/>
       </div>
       <div className="project-description">
         <div className="project-name"> Blue Donkey Coffee Style Guide</div>
@@ -103,7 +103,7 @@ const projectDescriptions = () => (
     {/* twitterbot block */}
     <article className="block" id="twitterbot">
       <div className="visual">
-        <img src={require('../images/twitter.png')} alt="twitterbot"/>
+        <img src={require('../images/twitter.jpg')} alt="twitterbot"/>
       </div>
       <div className="project-description">
         <div className="project-name"> Imaginary Planets</div>
@@ -119,7 +119,7 @@ const projectDescriptions = () => (
     {/* mirror block */}
     <article className="block" id="mirror-comic">
       <div className="visual">
-        <img src={require('../images/the-mirror-more.png')} alt="the mirror"/>
+        <img src={require('../images/the-mirror-more.jpg')} alt="the mirror"/>
       </div>
       <div className="project-description">
         <div className="project-name"> The Mirror</div>
@@ -133,13 +133,15 @@ const projectDescriptions = () => (
     {/* data vis block */}
     <article className="block" id="images-in-time">
         <div className="visual">
-          <video id="data-vis" autoPlay muted loop poster="../images/data_vis.png">
+          <video id="data-vis" autoPlay muted loop poster="../images/data_vis.jpg">
             <source src={require('../files/data.mp4')} type="video/mp4"/>
           </video>
         </div>
       <div className="project-description">
         <div className="project-name"> Images in Time</div>
-        <p>Using over 3000 images, images were arranged HI HI HI again
+        <p>This visualization shows small circles that correspond to nearly 1000 images taken over 9 days.
+          Each circle is located within the clock-like structure depending on the date, hour, minute and second provided in the image's timestamp.
+          When hovered over, the colored circles show the image, name, and timestamp formatted like a Pantone color swatch.
         </p>
         <p>Click <a href="https://github.com/meg213/data_visualization" target="_blank" rel="noopener noreferrer">here</a> to see or download the files.</p>
         <p>Want even more? <a href={dataVis} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
@@ -164,7 +166,7 @@ const projectDescriptions = () => (
     {/* Audio Art block */}
     <article className="block" id="audio-art">
       <div className="visual">
-       <img src={require('../images/audio_art.png')} alt="audio art"/>
+       <img src={require('../images/audio_art.jpg')} alt="audio art"/>
       </div>
       <div className="project-description">
         <div className="project-name"> Audio Art</div>

@@ -2,6 +2,7 @@
 .cache
 node_modules
 package-lock.json
+.vscode
 
 # Build directory
 /public
