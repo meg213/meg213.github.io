@@ -57,14 +57,6 @@ $faded-blue: #586c72;
                 }
             }
         }
-        // .block::before { 
-        //     display: block; 
-        //     content: " "; 
-        //     margin-top: -285px; 
-        //     height: 285px; 
-        //     visibility: hidden; 
-        //     pointer-events: none;
-        // }
         .return{
             text-transform: uppercase;
             height: 48px;
@@ -75,4 +67,15 @@ $faded-blue: #586c72;
             }
         }
     }
+    //for mobile
+    @media only screen and (max-width: 480px){
+        .project-description {
+            width: auto !important;
+        }
+        .visual, .visual img, .visual video{
+            padding-bottom: 12px;
+            width: 100% !important;
+            height: auto !important;
+        }
+    } 
 }

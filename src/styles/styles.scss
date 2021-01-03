@@ -59,6 +59,15 @@ video {
         font-family: 'Helvetica Neue';
         font-size: 20px;
     }
+    //mobile for banner
+    @media only screen and (max-width: 480px){
+        .video-container {
+            display: none;
+        }
+        .container {
+            width: 90vw;
+        }
+    }
 }
 
 // main parts, projects & about me
@@ -85,7 +94,7 @@ video {
         height: 80vh;
         .about-me {
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             line-height: 24px;
             .bio {
                 margin-bottom: 18px;
@@ -135,6 +144,17 @@ video {
             font-size: 14px;
         }
     }
+    //mobile contents
+    @media only screen and (max-width: 480px){
+        margin: 0 12px;
+        .projects, .about-me, .block {
+            display: block !important;
+        }
+        .about-me img {
+            width: 90vw;
+            height: auto;
+        }
+    }
 }
 
 //social media
@@ -179,4 +199,12 @@ video {
               }
         }
     }
+}
+
+//mobile
+@media only screen and (max-width: 480px){
+    .social {
+        display: none;
+    }
+    
 }
