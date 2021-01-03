@@ -170,7 +170,8 @@ const projectDescriptions = () => (
       </div>
       <div className="project-description">
         <div className="project-name"> Audio Art</div>
-        <p>As my first animated Blender project, this really jumpstarted my love for animation and 3D rendering!
+        <p>Taking in sound from the user's microphone, Audio Art creates abstract art pieces based on the volume, amplitude, and frequency of the sound.
+          As the user continues to make noise, more elements appear on the page.
         </p>
         <p>Click <a href="https://github.com/meg213/audio_art" target="_blank" rel="noopener noreferrer">here</a> to view or download the project files.</p>
         <p>Want even more? <a href={audioArt} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
