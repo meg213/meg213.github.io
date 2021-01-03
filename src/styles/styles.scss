@@ -93,7 +93,7 @@ video {
             .block {
                 display: flex;
                 justify-content: space-between;
-                width: 680px;
+                // width: 680px;
                 padding-bottom: 18px;
                 .info {
                     width: 375px;
@@ -104,7 +104,7 @@ video {
             }
         }
         img {
-            height: 500px;
+            height: 40vw;
             width: auto;
             padding-right: 20px;
 
