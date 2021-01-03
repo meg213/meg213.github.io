@@ -5,7 +5,9 @@
   
   
   
-</div>## 🛠 Installation & Set Up
+</div>
+
+🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
 
@@ -13,7 +15,7 @@
    npm install -g gatsby-cli
    ```
 
-2. Install and use the correct version of Node
+2. Install Dependencies
 
    ```sh
    npm install
@@ -23,8 +25,12 @@
 4. Start the development server
 
    ```sh
-   npm run develop
+   gatsby develop
    ```
+
+
+Have fun!
+
 
 
 
