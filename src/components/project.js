@@ -8,7 +8,7 @@ class Project extends React.Component {
         return (
             <Link to={this.props.link}>
              <div className="project">
-                <img  src={require('../images/' + this.props.image + '.png')}  />
+                <img  src={require('../images/' + this.props.image)}  />
                 <div className="overlay">
                     <div className="text">
                         <div className="name">{this.props.name} </div>
@@ -28,7 +28,7 @@ Project.propTypes = {
     link: PropTypes.string,
 }
 Project.defaultProps = {
-    image: "gatsby-icon",
+    image: "gatsby-icon.png",
     name: "Sample",
     type: 'Illustrator',
     link: null,

@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="banner" id="">
             <div className="container">
                 <div className="banner-name">Morgan Gomez</div>
-                <div className="sub-text">interaction design and experimental media</div>
+                <div className="sub-text">A Georgia Tech undergratuate student passionate about user experience design and 3D modeling.</div>
             </div>
             <div className="video-container">
                 <video id="tree" autoPlay muted loop>
