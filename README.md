@@ -28,6 +28,20 @@
    gatsby develop
    ```
 
+🛠 For Production
+
+1. Build Production model
+
+   ```sh
+   npm run build
+   ```
+
+2. Push to Github
+
+   ```sh
+   npm run deploy
+   ```
+
 
 Have fun!
 
