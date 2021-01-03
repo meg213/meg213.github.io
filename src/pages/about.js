@@ -32,9 +32,8 @@ const About = () => (
           <div className="work block">
               <h3>Work</h3>
               <div className="info">
-                <p>Software Engineer Co-op at <a href="https://www.itential.com"> Itential</a>, <i>2019-2020</i>
-                  <p><i>Primarily worked with React, Javascript, HTML, and Figma</i></p>
-                </p>
+                <p>Software Engineer Co-op at <a href="https://www.itential.com"> Itential</a>, <i>2019-2020</i></p>
+                <p><i>Primarily worked with React, Javascript, HTML, and Figma</i></p>
               </div>
           </div>
 
