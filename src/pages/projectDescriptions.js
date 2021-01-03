@@ -139,7 +139,7 @@ const projectDescriptions = () => (
         </div>
       <div className="project-description">
         <div className="project-name"> Images in Time</div>
-        <p>Using over 3000 images, images were arranged HI HI HI
+        <p>Using over 3000 images, images were arranged HI HI HI again
         </p>
         <p>Click <a href="https://github.com/meg213/data_visualization" target="_blank" rel="noopener noreferrer">here</a> to see or download the files.</p>
         <p>Want even more? <a href={dataVis} target="_blank" rel="noopener noreferrer">Here's</a> the full project write up.</p>
