@@ -1,8 +1,11 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="https://raw.githubusercontent.com/meg213/meg213@github.io/master/src/images/logo-01.png" width="100" />
+  
+  Hey! Welcome to my Porfolio!
+  
+  
+  
 </div>## 🛠 Installation & Set Up
-
-Hey! Welcome to my Porfolio!
 
 1. Install the Gatsby CLI
 
